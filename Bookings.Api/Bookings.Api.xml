@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Bookings.Api</name>
+    </assembly>
+    <members>
+        <member name="M:Bookings.Api.Controllers.BookingController.GetBookingsActiveByHotelAndDateRange(System.Int32,System.DateTime,System.DateTime)">
+            <summary>
+            Metodo que permite consultar las reservas de un hotel en un rango de fechas.
+            </summary>
+            <param name="HotelId"></param>
+            <param name="startDate"></param>
+            <param name="finishDate"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Bookings.Api.Controllers.BookingController.AddBooking(Bookings.Api.Dto.BookingDto)">
+            <summary>
+            Metodo que permite agregar una reserva de un hotel para un usuario
+            </summary>
+            <param name="bookingDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Bookings.Api.Controllers.BookingController.CancelBooking(System.Int32)">
+            <summary>
+            Metodo que permite cancelar una reserva creada.
+            </summary>
+            <param name="BookingId"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
